@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube to M3U8 Extractor</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body class="dark">
+  <div class="container">
+    <h1>YouTube Live to M3U8 Extractor</h1>
+    <input id="urlInput" placeholder="Paste YouTube livestream URL" />
+    <button onclick="extract()">Extract</button>
+    <button onclick="toggleTheme()">🌓</button>
+    <div id="preview"></div>
+    <div id="results"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="/static/script.js"></script>
+</body>
+</html>
